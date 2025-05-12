@@ -1,0 +1,21 @@
+ESTIMATE of time to complete assignment: 15 hours
+
+Date   Time Started   Time Spent   Work Compeletd
+-----  ------------   -----------  ---------------
+10/28    5:00pm          1:00       Read assignment and tried to understand the spec fully. Later on looked at the starter code and went though it
+10/29    8:00pm          3:00       Implemented my blotto.c fully and tested it with print statements to verify it was working as expected
+10/30    4:00pm          1:00       Wrote the makefile and tried running the test cases provide.(I was passing 47/55) 
+10/31    10:00pm         1:00       re-implimented gmap_array.c because the inefficiency in it was the reason I was not passing some test cases
+11/01     9:00pm         2:00       checked for memory issues and finished up debugging
+
+                        ------
+                         8:00      TOTAL time spent
+
+
+
+DISCUSSION
+
+The challenging bit of the assignment was primarily going about the efficient implementation of gmap_array.c using a hash table and linked lists.
+Reworking the gmap_array.c file to support linked lists instead of fixed-size arrays proved critical because it solved most of memory and runtime issues I had.
+Working with Valgrind for memory checking proved invaluable; it helped identify and resolve several memory leaks and invalid frees, strengthening my understanding of memory allocation and deallocation in linked list structures. Additionally, using tools like Valgrind enhanced my debugging skills, especially in managing complex data structures where each allocation and deallocation must be precise.
+Overally, this assignment gave me a deep undestanding in working with hash tables and efficient memory.
